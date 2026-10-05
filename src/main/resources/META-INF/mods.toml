@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="deepocean"
+version="0.4.0"
+displayName="Deep Ocean"
+description='''Deep ocean creatures. Stage 1: the Giant Deep-Sea Squid.'''
+
+[[dependencies.deepocean]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.deepocean]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
